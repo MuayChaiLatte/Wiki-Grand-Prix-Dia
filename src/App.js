@@ -7,6 +7,16 @@ function Button({name}) {
   )
 }
 
+function UserInput({name, placeholderText}) {
+  return (
+    <>
+    <p>{name}</p>
+    <input placeholder={placeholderText}></input>
+    <button>Submit</button>
+    </>
+  )
+}
+
 function App() {
   return (
     <div>

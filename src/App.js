@@ -23,3 +23,17 @@ function App() {
 }
 
 export default App;
+
+
+/*
+INITIAL PSEUDOCODE
+
+User inputs start page
+User inputs target page
+User clicks start
+Start page is displayed
+User clicks a link on start page
+Click is recorded
+If new page is target page
+  display winner and number of clicks!
+*/

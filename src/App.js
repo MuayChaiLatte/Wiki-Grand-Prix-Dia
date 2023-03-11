@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 
 function Button({name}) {
@@ -9,18 +8,20 @@ function Button({name}) {
 
 function UserInput({name, placeholderText}) {
   return (
-    <>
+    <div>
     <p>{name}</p>
     <input placeholder={placeholderText}></input>
     <button>Submit</button>
-    </>
+    </div>
   )
 }
 
 function App() {
   return (
     <div>
-      <Button name={'Start'}/>
+      <UserInput name='Start Page'/>
+      <UserInput name='End Page'/>
+      <Button name='Start'/>
     </div>
   );
 }
